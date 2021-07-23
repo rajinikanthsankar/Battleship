@@ -1,0 +1,42 @@
+<h1>Calibration Settings</h1>
+
+<p>Enter the values and click Set Button</p>
+
+<form [formGroup]="form">
+  <p>Sequencs : <input formControlName="sequences" /></p>
+  <p><button value="Set" (click)="Set()" title="Set">Set</button></p>
+  <div formGroupName="settings" style="border:1px solid grey;width:300px" >
+   <span>Sequence 1:</span>
+    <p>Caliber (mm): <input formControlName="caliber" /></p>
+    <p>Location: <select name="location" formControlName="location">
+       <option *ngFor="let l of turrentLocations" [ngValue]="l.id">{{l.desc}}</option>
+       </select></p>
+    <p>Rotation Start Point: <input formControlName="startPoint" /></p>
+    <p>Rotation End Point: <input formControlName="endPoint" /></p>
+  </div>
+  <div formGroupName="settings1" [hidden]="!isSettings(2)" style="border:1px solid grey">
+    <span>Sequence 2:</span>
+    <p>Caliber (mm): <input formControlName="caliber" /></p>
+    <p>
+      Location: <select name="location" formControlName="location">
+        <option *ngFor="let l of turrentLocations" [ngValue]="l.id">{{l.desc}}</option>
+      </select>
+    </p>
+    <p>Rotation Start Point: <input formControlName="startPoint" /></p>
+    <p>Rotation End Point: <input formControlName="endPoint" /></p>
+  </div>
+  <div formGroupName="settings2" [hidden]="!isSettings(3)" style="border:1px solid grey">
+    <span>Sequence 3:</span>
+    <p>Caliber (mm): <input formControlName="caliber" /></p>
+    <p>
+      Location: <select name="location" formControlName="location">
+        <option *ngFor="let l of turrentLocations" [ngValue]="l.id">{{l.desc}}</option>
+      </select>
+    </p>
+    <p>Rotation Start Point: <input formControlName="startPoint" /></p>
+    <p>Rotation End Point: <input formControlName="endPoint" /></p>
+  </div>
+
+</form>
+
+

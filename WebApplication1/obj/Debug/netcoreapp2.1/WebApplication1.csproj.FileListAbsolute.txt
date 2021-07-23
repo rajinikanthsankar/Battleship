@@ -1,0 +1,14 @@
+C:\Radha\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.deps.json
+C:\Radha\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.json
+C:\Radha\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.runtimeconfig.dev.json
+C:\Radha\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.dll
+C:\Radha\WebApplication1\WebApplication1\bin\Debug\netcoreapp2.1\WebApplication1.pdb
+C:\Radha\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csprojAssemblyReference.cache
+C:\Radha\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Radha\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorAssemblyInfo.cache
+C:\Radha\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorAssemblyInfo.cs
+C:\Radha\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.AssemblyInfoInputs.cache
+C:\Radha\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.AssemblyInfo.cs
+C:\Radha\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.RazorTargetAssemblyInfo.cache
+C:\Radha\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.dll
+C:\Radha\WebApplication1\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.pdb
